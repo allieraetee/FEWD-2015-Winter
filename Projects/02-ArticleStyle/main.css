@@ -441,10 +441,12 @@ html { box-sizing: border-box;
 
 
 
-.container{
-    width: 900px;
-    margin: 0 auto;
-    }
+body p {
+    font-family: Georgia, serif;
+    size: 16px;
+    color: #222;
+    line-height: 1.7;
+}
 h1, h2, h3, h4{
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
@@ -480,15 +482,9 @@ a:visited {
         font-size: 16px;
         color: #666;
 }
-.main {
-    width: 85%;
+.container-thin {
+    width: 775px;
     margin: 0 auto;}
-.main p {
-    font-family: Georgia, serif;
-    size: 16px;
-    color: #222;
-    line-height: 1.4;
-}
 
 .tagline {
     font-family: Georgia, serif;
@@ -498,8 +494,7 @@ a:visited {
 .caption {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    color: #666;
-    text-align: center;}
+    color: #666;}
 .caption2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -513,10 +508,15 @@ blockquote {
     font-size: 20px;
     font-style: italic;
     line-height: 1.8;
-    width: 100%;
-    margin: 0 auto;}
+    width: 885px;}
+
+.container-big{
+  margin: 0 auto;
+  width: 975px;
+}
 .image {
-    border: 1px solid #ccc;}
+    border: 1px solid #ccc;
+    margin: 0 auto;}
 
 .divider {
     display: block;
@@ -533,5 +533,6 @@ blockquote {
     display: block;
     width: 45%;
     float:left;
+    margin: 0 auto;
 }
 

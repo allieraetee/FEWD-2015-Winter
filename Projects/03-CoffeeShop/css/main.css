@@ -1,0 +1,32 @@
+.bar {
+	margin: 0;
+
+}
+.top{
+	background: #222 url('../images/header.jpg') no-repeat center;
+	width: 1150px;
+	height: 560px;
+	position: relative;
+}
+.logo{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100px;
+	margin: -50px 0 0 -50px;
+}
+.title {
+	position: absolute;
+	top:50%;
+	text-align: center;
+}
+.title h1{
+	font-size: 60px;
+	color: #fff;
+	font-family: 'Sanchez', serif;
+
+}
+.title p {
+	font-size: 22px;
+	font-family: 'Lato', sans-serif;
+}

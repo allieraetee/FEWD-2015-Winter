@@ -1,0 +1,34 @@
+
+
+/* image replacment thing 
+.logo{
+	background: url(../images/logo.png) no-repeat center;
+	display: block;
+	height: 90px;
+	width: 280px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+*/
+
+.square{
+	width: 200px;
+	height: 200px;
+	background: gray;
+	border: 1px solid black;
+}
+
+.bar{
+	height: 200px;
+	background: darkgrey;
+}
+
+.left { float: left;}
+.right {float: right;}
+
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
