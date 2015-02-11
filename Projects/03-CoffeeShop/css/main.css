@@ -435,6 +435,8 @@ th {
 
 body {
 	width:1150px;
+  margin: 0 auto;
+  background-color: #222;
 }
 h2, h3, h4 {
 	font-family: 'Sanchez', serif;
@@ -446,9 +448,11 @@ h2, h3, h4 {
 	}
 .top{
 	background: #222 url('../images/header.jpg') no-repeat center;
-	width: 1150px;
-	height: 560px;
+  background-size: cover;
+  width: 1150px;
+  height: 560px;
 	position: relative;
+  padding-bottom: 150px;
 }
 .yellow{
 	background: #AC8420;
@@ -465,16 +469,21 @@ h2, h3, h4 {
 	padding: 75px 0;
 	clear: both;
 }
+
+/* header type stuff */
 .logo{
 	position: absolute;
-	top: 50%;
+	top: 200px;
 	left: 50%;
 	width: 100px;
+  height: 100px;
 	margin: -50px 0 0 -50px;
 }
+
 .title {
 	position: absolute;
-	top:50%;
+	top: 250px;
+  left: 15%;
 	text-align: center;
 }
 .title h1{
@@ -483,11 +492,14 @@ h2, h3, h4 {
 	font-family: 'Sanchez', serif;
 
 }
-.title p {
+.title p{
 	font-size: 22px;
-	color: #fff;
+	color: #ccc;
+  line-height: 2;
 	font-family: 'Lato', sans-serif;
 }
+
+/* Main Content- Menu stuff */
 .container{
 	width: 625px;
 	margin: 0 auto;
@@ -496,22 +508,80 @@ h2, h3, h4 {
 .col-1-2{
 	width: 48%;
 }
-.col-1-2 p{
+.col-1-2 .menu{
 	font-family: 'Lato', sans-serif;
 	font-size: 16px;
 	color: #fff;
+  line-height: 1.4;
 	border-bottom: 2px solid #9B761C;
-	padding-bottom: 20px;
+  padding-bottom: 10px;
+	}
+.col-1-2 p .menu_last {
+  border: none;
 }
 .price{
-	color: #DeCC9C;
-	text-indent: 175px;
+  color: #DeCC9C;
+  float: right;
 }
 .right{ float:right;}
 .left{ float: left;}
+
+/* hours and location, white bar */
+
+.hours h3 {
+  text-align: left;
+}
+.hours p {
+    color: #666;
+    border: none;
+    line-height: 1.7;
+}
+.button{
+  margin: 20px 10px;
+}
+.button a {
+  border: 2px solid #Ac8420;
+  font-size: 16px;
+  text-decoration: none;
+  color: #AC8420;
+  padding: 15px 25px;
+}
+
+/* Footer Bar Stuff */
 
 .col-1-3{
 	width: 32%;
 	float:left;
 	margin: 0 auto;
+  min-height: 200px;
+  
 }
+.col-1-3 p{
+    font-size: 12px;
+    font-family: 'Lato' sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.logo_small {
+    background: url('../images/logo_small.png') no-repeat center;
+    display: block;
+    padding-top: 50px;
+   }
+.col-1-3 a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+.col-1-3 a:hover{
+  text-decoration: underline;}
+
+
+
+
+
+
+
+
+
