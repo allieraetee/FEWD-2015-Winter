@@ -434,7 +434,7 @@ th {
 
 
 body {
-	width:1150px;
+  width: 100%;
   margin: 0 auto;
   background-color: #222;
 }
@@ -442,9 +442,11 @@ h2, h3, h4 {
 	font-family: 'Sanchez', serif;
 	color: #222;
 	font-size: 32px;
-	text-align: center;}
+	text-align: center;
+  font-weight: normal;}
 .bar {
 	margin: 0 auto;
+  width: 100%;
 	}
 .top{
 	background: #222 url('../images/header.jpg') no-repeat center;
@@ -452,7 +454,6 @@ h2, h3, h4 {
   width: 1150px;
   height: 560px;
 	position: relative;
-  padding-bottom: 150px;
 }
 .yellow{
 	background: #AC8420;
@@ -468,6 +469,7 @@ h2, h3, h4 {
 	background:#222;
 	padding: 75px 0;
 	clear: both;
+  overflow: hidden;
 }
 
 /* header type stuff */
