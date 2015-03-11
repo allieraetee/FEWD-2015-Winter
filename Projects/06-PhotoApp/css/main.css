@@ -133,12 +133,12 @@ body{
 }
 .gallery_content{
 	display: inline-block;
+	padding-top: 150px;
 }
 .gallery_image {
-	padding: 10px;
 	display: inline-block;
-	min-width: 200px;
-	min-height: 200px;
+	min-width: 175px;
+	min-height: 175px;
 }
 
 /* Download */
