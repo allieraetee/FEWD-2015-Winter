@@ -8,7 +8,6 @@ body{
 .introbar_wrap {
 	width: 100%;
 	display: block;
-	overflow: hidden;
 	background-color: #e77e04;
 	background: url('../images/intro_bg.jpg') no-repeat;
 }
@@ -22,7 +21,7 @@ body{
 /* header */
 
 .logo{
-	margin: 20px 80px;
+	margin: 70px 80px;
 }
 
 .logo a{
@@ -154,12 +153,36 @@ body{
 .download p{
 	font-size: 18px;
 }
-
 .button-black{
-	display: block;
 	background-color: #000;
-	margin: 20px 50px;
+	width: 100%;
 	padding: 20px;
+	margin: 20px;
+
+}
+.apple{
+	background: url('../images/icon_sprite.png') #000 no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+	background-position: center -200px;
+	min-width: 120px;
+	min-height: 60px;
+}
+.play {
+	background: url('../images/icon_sprite.png') #000 no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+	background-position: center -260px;
+	min-width: 120px;
+	min-height: 60px;
+}
+.amazon {
+	background: url('../images/icon_sprite.png') #000 no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+	background-position: center -320px;
+	min-width: 120px;
+	min-height: 60px;
 }
 .button-black a {
 	color: #fff;
@@ -169,6 +192,8 @@ body{
 /* footer */
 .footer {
 	border-top: solid 1px #777;
+	padding: 40px 50px;
+}
 }
 .footer a{
 	color: #2b3f4c;
@@ -176,8 +201,42 @@ body{
 }
 .footer p{
 	color: #777;
-
 }
+.footer_bottom{
+	clear:both;
+	text-align: center;
+}
+.footer_links{
+	float: left;
+	text-align: center;
+}
+.social_media{
+	float: none;
+	display: block;
+	width: 0 auto;
+}
+.facebook {
+	background: url('../images/icon_sprite.png') no-repeat;
+	display: inline-block;
+	background-position: -80px 0;
+	height: 40px;
+	width: 40px;
+}
+.twitter {
+	background: url('../images/icon_sprite.png') no-repeat;
+	background-position: -120px 0;
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+}
+.googleplus {
+	background: url('../images/icon_sprite.png') no-repeat;
+	background-position: -160px 0;
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+}
+
 
 /* Media Queries */
 
@@ -208,7 +267,7 @@ body{
 			height: 554px;
 			position: absolute;
 			bottom: 0;
-			right: 140px; 
+			right: 40px; 
 		}
 		.feature {
 			text-align: center;
@@ -238,6 +297,17 @@ body{
 			background-position: -160px -120px;
 			height: 63px;
 			width: 50px;
+		}
+		.social_media{
+			float:right;
+		}
+		.footer_bottom{
+			clear:both;
+			text-align: center;
+		}
+		.footer_links{
+		float: left;
+		text-align: center;
 		}
 
 	}
