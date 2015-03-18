@@ -14,6 +14,7 @@ body{
 .gallerybar_wrap {
 	width: 100%;
 	display: block;
+	padding: 0;
 	overflow: hidden;
 	background-color: #eee;
 }
@@ -21,7 +22,7 @@ body{
 /* header */
 
 .logo{
-	margin: 70px 80px;
+	margin: 70px 50px;
 }
 
 .logo a{
@@ -122,7 +123,7 @@ body{
 	background-color: #eee;
 	overflow: hidden;
 	width: 100%;
-	padding: 100px 50px 100px 50px;
+	margin: 100px 50px 100px 50px;
 }
 .gallery_row h4{
 	color: #2b3f4c;
@@ -132,12 +133,14 @@ body{
 }
 .gallery_content{
 	display: inline-block;
-	padding-top: 150px;
+	padding-top: 100px;
 }
 .gallery_image {
 	display: inline-block;
 	min-width: 175px;
 	min-height: 175px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 /* Download */
@@ -322,15 +325,6 @@ body{
 
 	@media screen and (min-width: 980px) {
 		/* target screens larger then 980px */
-		.gallery_heading {
-			margin-top: 90px;
-		}
-		.csstransforms .gallery_content {
-			margin-top: 0px;
-			position: relative;
-			top: 50%;
-			transform: translateY(-50%);
-		}
 		.gallery_item {
 			margin-bottom: 15px;
 		}
