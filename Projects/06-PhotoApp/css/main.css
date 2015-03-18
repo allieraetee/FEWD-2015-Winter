@@ -133,14 +133,10 @@ body{
 }
 .gallery_content{
 	display: inline-block;
-	padding-top: 100px;
 }
 .gallery_image {
 	display: inline-block;
-	min-width: 175px;
-	min-height: 175px;
-	padding-left: 10px;
-	padding-right: 10px;
+	width: 100%;
 }
 
 /* Download */
@@ -327,7 +323,7 @@ body{
 		/* target screens larger then 980px */
 		.gallery_item {
 			margin-bottom: 15px;
-		}
+		]
 
 	}
 
